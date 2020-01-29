@@ -15,8 +15,8 @@ a:focus {
 }
 
 .grid {
-  padding-left: 0;  
-  font-size: 0;  
+  padding-left: 0;
+  font-size: 0;
   text-align: center;
 }
 
@@ -61,7 +61,7 @@ a:focus {
 }
 
 .grid figcaption .name-produk {
-  white-space: nowrap; 
+  white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   word-spacing: -0.15em;
@@ -369,11 +369,11 @@ figure:hover .name-produk {
 }
 
 #view_cart_modal {
-  padding-left: 20px; 
-  padding-right: 20px; 
-  border-style: solid; border: 1px solid; 
-  border-image: linear-gradient( to bottom, #009975, rgba(0, 0, 0, 0) ) 1 100%; 
-  border-left: none; 
+  padding-left: 20px;
+  padding-right: 20px;
+  border-style: solid; border: 1px solid;
+  border-image: linear-gradient( to bottom, #009975, rgba(0, 0, 0, 0) ) 1 100%;
+  border-left: none;
   color: #009975 !important;
 }
 #view_cart_modal span {
@@ -390,21 +390,21 @@ figure:hover .name-produk {
   padding: 0px 5px;
 }
 a.masuk {
-  padding-left: 15px; 
-  padding-right: 15px; 
+  padding-left: 15px;
+  padding-right: 15px;
   font-size: 12px;
 }
 a.daftar {
-  padding-left: 15px; 
+  padding-left: 15px;
   border: 1px solid #009975 !important;
-  text-align: center; 
-  text-decoration: none; 
-  font-size: 12px; 
-  margin: 4px 2px; 
-  cursor: pointer; 
-  padding-right: 15px; 
-  padding-top: 5px; 
-  padding-bottom: 5px; 
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   border-radius: 5px;
 }
 .main_nav{
@@ -424,15 +424,15 @@ a.daftar {
   border-radius: 8px 0px 0px 8px;
 }
 #main_nav .input-group .input-group-prepend {
-  width: 35px; 
-  padding: 5px; 
+  width: 35px;
+  padding: 5px;
   height: 35px;
-  cursor: pointer; 
+  cursor: pointer;
   margin-top: 5px;
-  text-align: center; 
+  text-align: center;
   background: #15141403;
   border: 1px solid #cccccc;
-  border-radius: 0px 8px 8px 0px; 
+  border-radius: 0px 8px 8px 0px;
 }
 #main_nav .input-group .input-group-prepend span {
   border: 0px;
@@ -486,23 +486,23 @@ input[type=submit]:hover {
 
 .contentOmiyago .headingList {
   height: 3.75rem;
-  background: #fff; 
-  padding-left: 1.25rem; 
-  border-bottom: 1px solid rgba(0,0,0,.05); 
-  padding: 0 1.25rem; 
-  display: flex; -webkit-box-align: center; 
+  background: #fff;
+  padding-left: 1.25rem;
+  border-bottom: 1px solid rgba(0,0,0,.05);
+  padding: 0 1.25rem;
+  display: flex; -webkit-box-align: center;
   align-items: center;
 }
 .contentOmiyago .headingList .titleHeading {
-  font-size: 1rem; 
-  color: rgba(0,0,0,.54); 
-  font-weight: 500; 
-  text-transform: uppercase; 
-  -webkit-box-flex: 1; 
-  flex: 1; 
-  overflow: hidden; 
-  text-overflow: ellipsis; 
-  white-space: nowrap; 
+  font-size: 1rem;
+  color: rgba(0,0,0,.54);
+  font-weight: 500;
+  text-transform: uppercase;
+  -webkit-box-flex: 1;
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   margin-right: 1.25rem;
 }
 .contentOmiyago .headingList .titleHeading span {
@@ -515,18 +515,18 @@ input[type=submit]:hover {
   text-decoration: none!important;
 }
 .contentOmiyago .headingList a button {
-  display: flex; 
-  -webkit-box-align: center; 
-  align-items: center; 
-  padding: .3125rem .4375rem; 
-  background-color: transparent; 
-  border: none; 
-  font-size: .875rem; 
-  font-weight: 400; 
-  line-height: 1; 
-  letter-spacing: 0; 
-  outline: none; 
-  cursor: pointer; 
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: .3125rem .4375rem;
+  background-color: transparent;
+  border: none;
+  font-size: .875rem;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0;
+  outline: none;
+  cursor: pointer;
   color: #009975;
 }
 .contentOmiyago .headingList a button i {
@@ -534,15 +534,15 @@ input[type=submit]:hover {
   font-size: 15px;
 }
 .contentOmiyago .grid {
-  margin: 0px; 
-  width: 100%; 
+  margin: 0px;
+  width: 100%;
   background: #ffffff;
-  display: inline-block; 
+  display: inline-block;
 }
 .informasi-footer {
   width:100%;
   margin-top: 20px;
-  margin-left: 0px; 
+  margin-left: 0px;
   padding-bottom: 20px;
 }
 .informasi-footer .cl1-info-footer {
@@ -576,10 +576,10 @@ footer {
 }
 footer .sosmedFooter a{
   color:#FFFFFF;
-  font-size:30px; 
+  font-size:30px;
 }
 footer .sosmedFooter a i{
-  width:62px; 
+  width:62px;
   padding:13px;
   font-size: 30px;
   margin: 5px 2px;
@@ -690,7 +690,7 @@ footer h4.judul-footer {
   line-height: 18px;
   border-radius: 0px;
   background: #4cb050;
-} 
+}
 .fa:hover {
     opacity: 0.7;
 }
@@ -709,4 +709,69 @@ footer h4.judul-footer {
 .fa-youtube {
   background: #bb0000;
   color: white;
+}
+#carousel2 .owl-nav {
+  top: 30%;
+  width: 100%;
+  display: block;
+  position: absolute;
+}
+#carousel2 .owl-nav button.owl-prev{
+  float: left;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: #4cb050;
+}
+#carousel2 .owl-nav button.owl-next{
+  float: right;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: #4cb050;
+}
+#carousel2 .owl-nav button:hover{
+  background: transparent;
+}
+#carousel2 .owl-nav button:focus{
+  outline: 0px;
+}
+#carousel2 .owl-nav button span{
+  top: -13px;
+  color: #ffffff;
+  font-size: 35px;
+  position: relative;
+}
+
+#carousel3 .owl-nav {
+  top: 30%;
+  width: 100%;
+  display: block;
+  position: absolute;
+}
+#carousel3 .owl-nav button.owl-prev{
+  float: left;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: #4cb050;
+}
+#carousel3 .owl-nav button.owl-next{
+  float: right;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: #4cb050;
+}
+#carousel3 .owl-nav button:hover{
+  background: transparent;
+}
+#carousel3 .owl-nav button:focus{
+  outline: 0px;
+}
+#carousel3 .owl-nav button span{
+  top: -13px;
+  color: #ffffff;
+  font-size: 35px;
+  position: relative;
 }
