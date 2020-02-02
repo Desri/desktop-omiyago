@@ -775,3 +775,223 @@ footer h4.judul-footer {
   font-size: 35px;
   position: relative;
 }
+
+
+#detailPage {
+  padding-top: 20px;
+  background: #ffffff;
+  box-shadow: 0 -5px 5px -5px #e0e0e0;
+}
+#detailPage .breadcrumbs nav ol{
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background: #ffffff;
+}
+#detailPage .breadcrumbs nav ol li a{
+  color: #009975;
+  font-size: 13px;
+}
+#detailPage .breadcrumbs nav ol li span{
+  font-size: 13px;
+}
+.descDetail .headDetail h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+.descDetail .ratingDetail .star {
+  float: left;
+  margin-right: 15px;
+}
+.descDetail .ratingDetail .star p {
+  float: left;
+  margin-right: 5px;
+}
+.descDetail .ratingDetail .star ul{
+  overflow: hidden;
+  padding-left: 0px;
+}
+.descDetail .ratingDetail .star ul li{
+  float: left;
+  list-style: none;
+  margin-right: 3px;
+}
+.descDetail .ratingDetail .star ul li i{
+  color: #ffd400;
+  font-size: 14px;
+}
+.descDetail .ratingDetail .rate p span{
+  font-weight: bold;
+  color: #5d5d5d;
+  font-size: 14px;
+}
+.descDetail .ratingDetail .rate {
+  float: left;
+  margin-right: 15px;
+}
+.descDetail .ratingDetail .sales p span{
+  font-weight: bold;
+  color: #5d5d5d;
+  font-size: 14px;
+}
+.descDetail .priceDetail {
+  padding: 15px 20px;
+  margin-bottom: 22px;
+  background: #fafafa;
+}
+.descDetail .priceDetail .discountPrice {
+  float: left;
+  margin-right: 15px;
+}
+.descDetail .priceDetail .normalPrice h3 {
+  margin-bottom: 0px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #dc0505;
+}
+.descDetail .priceDetail .normalPrice h3 span{
+  top: -4px;
+  left: -10px;
+  color: #ffffff;
+  font-size: 10px;
+  padding: 2px 5px;
+  font-weight: 600;
+  border-radius: 4px;
+  position: relative;
+  background: #dc0505;
+}
+.descDetail .priceDetail .discountPrice label{
+  color: #8e8e8e;
+  padding: 0px;
+  padding-top: 5px;
+  margin-bottom: 0px;
+  text-decoration: line-through;
+}
+.descDetail .listDescDetail .listDetail {
+  overflow: hidden;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eaeaea;
+}
+.descDetail .listDescDetail .listDetail .labelDetail {
+  float: left;
+  width: 18%;
+}
+.descDetail .listDescDetail .listDetail .labelDetail label{
+  color: #969696;
+  padding: 0px;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.descDetail .listDescDetail .listDetail .desclist {
+  float: left;
+}
+.descDetail .listDescDetail .listDetail .desclist p{
+  font-size: 13px;
+  margin-bottom: 0px;
+}
+.descDetail .listDescDetail .listDetail .qtymaster p {
+  margin-bottom: 8px;
+}
+.descDetail .listDescDetail .listDetail .desclist .qty {
+  overflow: hidden;
+}
+.descDetail .listDescDetail .listDetail .desclist .qty button {
+  border-radius: 50%;
+  height: 28px;
+  border: 1px solid #009975;
+  width: 28px;
+  float: left;
+  text-align: center;
+}
+.descDetail .listDescDetail .listDetail .desclist .qty input {
+  padding-left: 0px;
+  width: 50px;
+  float: left;
+  height: 20px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.descDetail .listDescDetail .listDetail .desclist .qty p{
+  float: left;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  color: #737373;
+  padding-top: 5px;
+}
+.descDetail .listDescDetail .listDetail .desclist .minPembelian p {
+  color: #009975;
+  font-weight: 600;
+  padding-top: 7px;
+}
+.descDetail .listDescDetail .listDetail .desclist ul {
+  overflow: hidden;
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+.descDetail .listDescDetail .listDetail .desclist ul li {
+  float: left;
+  list-style: none;
+  text-align: center;
+  padding-right: 15px;
+  margin-right: 15px;
+  border-right: 1px solid #dddddd;
+}
+.descDetail .listDescDetail .listDetail .desclist ul li p {
+  margin-bottom: 0px;
+}
+
+
+.descDetailProduk {
+  margin-top: 30px;
+}
+.descDetailProduk ul {
+  padding: 15px 0px;
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+}
+.descDetailProduk ul li {
+  width: 100px;
+  text-align: center;
+}
+.descDetailProduk ul li a{
+  color: #ababab;
+  font-weight: 600;
+}
+.descDetailProduk ul li a.active{
+  color: #009975;
+  font-weight: 600;
+}
+
+.descDetailProduk .tab-content {
+  padding: 15px;
+}
+.descDetailProduk .tab-content p {
+  font-size: 14px;
+  color: #8c8c8c;
+}
+.descDetailProduk .tab-content ul {
+  border: 0px;
+  padding-top: 0px;
+}
+.descDetailProduk .tab-content ul li {
+  width: 100%;
+  list-style: none;
+  text-align: left;
+  font-size: 14px;
+  color: #8c8c8c;
+}
+.descDetailProduk .listDiskusi .media img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.descDetailProduk .listDiskusi .media .media-body h5 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #8a8a8a;
+  margin-bottom: 0px;
+}
+.relatedProduk {
+  border-top: 1px solid #dddddd;
+}

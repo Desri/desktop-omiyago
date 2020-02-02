@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width initial-scale=1.0">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+
+  <title>Dapuromiyago | Dapuromiyago</title>
+
+  <link rel="shortcut icon" href="http://inidevelop.shop/images/logo/logo_dapur.jpg">
+  <!-- GLOBAL MAINLY STYLES-->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Slideshow core CSS -->
+  <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+
+  <!-- THEME STYLES-->
+  <link href="assets/css/main.min.css" rel="stylesheet" />
+  <link href="assets/css/global.css" rel="stylesheet" />
+  <link href="assets/css/style.css" rel="stylesheet" />
+
+  <script src="vendor/jquery/jquery.min.js"></script>
+
+</head>
+
+<body class="fixed-navbar">
+  <div class="page-wrapper">
+    <div class="subheader">
+      <div class="subheader-inner">
+        <div class="subheader-left">
+          <a href="#">Pusat Bantuan</a>
+        </div>
+        <div class="subheader-right">
+          <a id="mitra-click" href="#">Cara Berbelanja</a><a href="/promo">Promo</a><a href="/blog.omiyago.com">Blog</a>
+        </div>
+      </div>
+    </div>
+    <header id="main_header" class="shadow bg-white"><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <div class="container">
+        <nav id="main_nav" class="navbar navbar-expand-lg navbar-light">
+          <a href="/" class="navbar-brand">
+            <img  id="main_logo"  src="assets/img/logo.png" class="img-logo img-fluid" style=" max-width: 75px; ">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <form style=" width: 100%;margin-left: 75px; ">
+              <div class="input-group">
+                <div class="ui-widget">
+                  <input type="search" autocomplete="off" id="cari_produk" name="search" class="form-control border-right-0" placeholder="Cari Produk" aria-label="Cari Produk" aria-describedby="basic-addon1">
+                </div>
+                <div class="input-group-prepend">
+                  <span class="input-group-text bg-white border-left-0 rounded-right">
+                    <i onclick="getproduk()" class="fa fa-search"></i>
+                  </span>
+                </div>
+                <a href="#" id="view_cart_modal" class="mr-0 d-flex text-dark align-items-center">
+                  <i class="fa fa-shopping-basket"></i>
+                  <input type="hidden" value="0" id="cart_value_hidden" />
+                  <span id="cart_value" class="notif">0</span>
+                </a>
+                <a href="#" data-toggle="modal" data-target="#loginModal" class="mx-2 d-flex text-dark align-items-center masuk">Masuk</a>
+                <a href="/daftar" class="mx-2 d-flex text-dark align-items-center daftar">Daftar</a>
+              </div>
+            </form>
+          </div>
+        </nav>
+      </div>
+
+       <div class="modal fade cartModal" id="cartModal" tabindex="-1" role="dialog" aria-labelledby="cartModalLabel" aria-hidden="true">
+        <div class="cart_item_popup modal-dialog modal-lg" role="document" style="width:400px; float: right;margin-top: 100px;
+          margin-right: 295px;">
+        </div>
+      </div>
+
+    <!-- endmodal -->
+    <hr style="border-top:2px solid #009975;margin-bottom:0rem;">
+      <div class="container">
+        <nav id="main_nav" style="height: 40px;" class="navbar navbar-expand-lg navbar-light masterMenu">
+          <a href="#" style=" padding: 24px 20px;line-height: 0px;font-size: 14px;font-weight: 600;font-style: normal;font-stretch: normal;letter-spacing: normal;color: rgba(0, 0, 0, 0.62);display: block;border-radius: 4px;cursor: pointer;margin: 0;margin-left:60px;">Menu Senin</a>
+          <a href="#">Menu Selasa</a>
+          <a href="#">Menu Rabu</a>
+          <a href="#">Menu Kamis</a>
+          <a href="#">Menu Jumat</a>
+          <a href="#">Sayur & Buah</a>
+          <a href="#">Katering</a>
+          <a href="#">Promo</a>
+        </nav>
+      </div>
+    </header>
+
+  <section class="my-4">
+    
+  </section>
+
+  <footer class="page-footer mt-5">
+    <div class="container pt-4">
+      <div class="row">
+        <div class="col-lg-6 mb-3">
+        <div style="padding-bottom: 30px;" class="widget clearfix">
+          <h4 class="judul-footer">Follow &amp; Subscribe</h4>
+          <div style="color: #FFFFFF !important;padding: 0px;border-top: 1px solid #FFFFFF;">&nbsp;</div>
+          <div class="widget clearfix" style="margin-bottom: -20px;">
+            <div class="sosial-footer sosmedFooter fleft clearfix">
+              <a href="#">
+                <i class="fa fa-instagram"></i>
+              </a>
+              <a href="#">
+               <i class="fa fa-facebook"></i>
+              </a>
+              <a href="#">
+                <i class="fa fa-twitter"></i>
+              </a>
+              <a href="#" class="">
+                <i class="fa fa-youtube"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="informasi-footer col_one_third widget widget_links clearfix">
+          <h4 class="judul-footer" style="">Informasi</h4>
+          <div class="lineLinks">&nbsp;</div>
+
+          <div class="cl1-info-footer widget widget_links clearfix">
+            <ul type="square">
+              <li>
+                <a href="#">&nbsp;&nbsp;Tentang Kami</a>
+              </li>
+              <li>
+                <a href="#">&nbsp;&nbsp;FAQ</a>
+              </li>
+              <li>
+                <a href="#">&nbsp;&nbsp;Cara Belanja</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="cl3-info-footer widget widget_links clearfix">
+            <ul type="square">
+              <li>
+                <span> &nbsp;&nbsp;Telp : +6221 5601525</span>
+              </li>
+              <li>
+                <span> &nbsp;&nbsp;Email : cs@omiyago.com</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 mb-3">
+        <div style="padding-bottom: 30px;" class="widget clearfix">
+            <h4 class="judul-footer" style="">Pembayaran</h4>
+            <div style="color: #FFFFFF !important;padding: 5px;border-top: 1px solid #FFFFFF;">&nbsp;</div>
+            <div class="widget clearfix" style="margin-bottom: -20px;">
+              <div style="" class="sosial-footer fleft clearfix">
+                <img src="assets/img/LOGO_PAYMENT-13.png" alt="lgshp">
+              </div>
+            </div>
+        </div>
+      </div>
+
+      <div style="width:100%;" class="footer-widgets-wrap clearfix">
+        <p><strong>Dapur Omiyago hadir untuk menyajikan kesegaran yang berasal dari bumi Indonesia dalam bentuk sayuran dan buah segar, serta aneka masakan siap santap yang berasal dari bahan-bahan asli Nusantara.</strong></p>
+        <p align="justify" style="font-size: 11px;  margin-bottom: 5px;">Selain memasarkan sayuran dan buah segar asli Nusantara, kami juga menyajikan aneka masakan siap santap hasil dari masakan dapur mitra yang tentunya telah melalui kurasi dan standar tinggi yang ditetapkan oleh ahli masakan di Dapur Omiyago. Masakan yang kami sediakan adalah menu-menu Nusantara dan Asia seperti nasi rendang, nasi uduk, nasi bakar, nasi hainam, dan menu-menu lainnya yang akan terus berkembang. Dapur Omiyago mencari supplier-supplier masakan berpotensi untuk diajak bermitra dan mengembangkan bisnisnya melalui media daring. Setiap masakan yang dipesan melalui Dapur Omiyago merupakan masakan yang baru selesai diracik sehingga kesegaran dan keaslian rasa dari setiap masakan terjamin. </p>
+        <p align="justify" style="font-size: 11px;  margin-bottom: 5px;">Selain pilihan aneka ragam pilihan produk yang ditawarkan oleh Dapur Omiyago, kami juga menyediakan pilihan pembayaran yang bisa pelanggan pilih, mulai dari bank transfer, virtual account, hingga dompet digital seperti GoPay, Ovo, dan LinkAja yang tentunya kami juga akan menawarkan berbagai promo menarik dari setiap metode pembayaran tersebut. Selain pembayaran yang variatif, Dapur Omiyago juga menawarkan beberapa pilihan pengiriman yaitu Paxel yang hanya tersedia untuk pemesanan buah dan sayur dan pengiriman instan untuk semua produk seperti Kurir Omiyago dengan tarif rata semua cakupan area, dan pengiriman instan yang bekerja sama dengan transportasi daring GoSend dan Grab Delivery yang tentunya tarif sesuai dengan jarak pengiriman dan mengikuti tarif yang ditetapkan mitra. </p>
+        <p align="justify" style="font-size: 11px;  margin-bottom: 5px;">Dengan berbelanja produk di Dapur Omiyago, Anda turut membantu pertumbuhan ekonomi keluarga petani dan keluarga mitra yang menyediakan aneka masakan, sekaligus menjaga tetap eksisnya aneka sayur dan buah lokal di tengah membanjirnya produk impor. Dapur Omiyago, mitra jaminan kualitas kesegaran sayur dan buah, serta aneka masakan siap santap Anda.</p>
+      </div>
+    </div>
+    <div class="text-center pb-1 copyright">
+      <a href="#">© 2019 -Design by DapurOmiyago™ - Power by PT. Global Kuliner Ciptarasa</a>
+    </div>
+    </div>
+  </footer>
+
+    </div>
+
+    <div class="sidenav-backdrop backdrop"></div>
+    <div class="preloader-backdrop">
+      <div class="page-preloader">Loading</div>
+    </div>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+    <script src="owlcarousel/owl.carousel.js"></script>
+    <script src="assets/js/jquery.slimscroll.min.js" type="text/javascript"></script>
+    <script src="http://dapuromiyago.com/theme/js/app.min.js" type="text/javascript"></script>
+
+    <script>
+      $(window).scroll(function(){
+        if ($(window).scrollTop() >= 20) {
+          $('#main_header').addClass('main_header');
+          $('#main_nav').addClass('main_nav');
+          $('#main_logo').addClass('main_logo');
+        }else {
+          $('#main_header').removeClass('main_header');
+          $('#main_nav').removeClass('main_nav');
+          $('#main_logo').removeClass('main_logo');
+        }
+      });
+    </script>
+
+    <script>
+      $(document).ready(function() {
+
+        $("#carousel2").owlCarousel({
+          nav: true,
+          loop: true,
+          margin: 0,
+          dots : false,
+          autoplay:false,
+          autoplayTimeout: 8000,
+          autoplaySpeed: 5000,
+          responsive:{
+            0:{
+                items:2.2
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:5
+            }
+          }
+        });
+
+        $("#carousel3").owlCarousel({
+          nav: true,
+          loop: true,
+          margin: 0,
+          dots : false,
+          autoplay:false,
+          autoplayTimeout: 8000,
+          autoplaySpeed: 5000,
+          responsive:{
+            0:{
+                items:2.2
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:5
+            }
+          }
+        });
+
+      });
+    </script>
+
+</body>
+</html>
