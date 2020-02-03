@@ -1022,3 +1022,135 @@ footer h4.judul-footer {
 .colImgDetail .slideThumb figure {
   margin-bottom: 0px;
 }
+.colListCarts .listCarts .headingCarts {
+  overflow: hidden;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  box-shadow: 0 5px 5px -5px #e0e0e0;
+}
+.colListCarts .listCarts .headingCarts .headCheck {
+  float: left;
+  font-size: 15px;
+  padding-top: 3px;
+}
+.colListCarts .listCarts .headingCarts .deleteCarts {
+  float: right;
+}
+.colListCarts .listCarts .headingCarts .deleteCarts a{
+  color: #009975;
+  font-size: 15px;
+  font-weight: 600;
+}
+.colListCarts .listCarts .lists {
+  overflow: hidden;
+  padding-left: 6px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0 6px 5px -5px #e0e0e0;
+}
+.colListCarts .listCarts .lists .media img {
+  width: 75px;
+  border-radius: 10px;
+}
+.colListCarts .listCarts .lists .selected input {
+  top: 25px;
+  position: relative;
+}
+.colListCarts .listCarts .lists .media .media-body h5 {
+  color: #505050;
+  font-size: 16px;
+  font-weight: 600;
+}
+.colListCarts .listCarts .lists .media .media-body p {
+  color: #dc0505;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+    
+.colListCarts .listCarts .lists .media .media-body .qty {
+  float: right;
+  overflow: hidden;
+}
+.colListCarts .listCarts .lists .media .media-body .qty button{
+  border-radius: 50%;
+  height: 28px;
+  border: 1px solid #009975;
+  width: 28px;
+  float: left;
+  text-align: center;
+}
+.colListCarts .listCarts .lists .media .media-body .qty button:focus{
+  outline: 0px;
+}
+.colListCarts .listCarts .lists .media .media-body .qty input{
+  width: 60px;
+  float: left;
+  height: 30px;
+  color: #585858;
+  border-top: 0px;
+  border-left: 0px;
+  margin-left: 8px;
+  margin-right: 8px;
+  border-right: 0px;
+  border-radius: 0px;
+  text-align: center !important;
+}
+.colListCarts .listCarts .lists .media .media-body .qty .icondelete {
+  float: left;
+  margin-right: 20px;
+}
+.colListCarts .listCarts .lists .media .media-body .qty .icondelete a i {
+  top: 2px;
+  color: #bfbfbf;
+  font-size: 23px;
+  position: relative;
+}
+.colListCarts .listCarts .lists .selected {
+  float: left;
+  margin-right: 15px;
+}
+.ringkasan {
+  padding: 15px;
+  box-shadow: rgba(49, 53, 59, 0.12) 0px 1px 6px 0px;
+}
+.ringkasan .headingRingkasan {
+  padding-bottom: 13px;
+  border-bottom: 1px solid #dddddd;
+}
+.ringkasan .headingRingkasan h2 {
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+.ringkasan .totalBelanja {
+  overflow: hidden;
+  margin-top: 15px;
+}
+.ringkasan .totalBelanja h3 {
+  float: left;
+  font-size: 16px;
+  margin-bottom: 0px;
+  font-weight: normal;
+}
+.ringkasan .totalBelanja .textTotal {
+  overflow: hidden;
+}
+.ringkasan .totalBelanja p {
+  float: right;
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: 15px;
+  color: #676767;
+}
+.ringkasan .btnAddCart {
+  margin-top: 20px;
+}
+.ringkasan .btnAddCart button {
+  background: rgb(250, 89, 29);
+  color: #ffffff;
+  border-radius: 8px;
+  border-color: rgb(250, 89, 29);
+}
