@@ -995,3 +995,25 @@ footer h4.judul-footer {
 .relatedProduk {
   border-top: 1px solid #dddddd;
 }
+.addtoCart .btnCarts button.btn-tinted {
+  border: 1px solid #009975;
+  width: 200px;
+  height: 45px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-right: 10px;
+  background: rgba(26, 162, 10, 0.1);
+}
+.addtoCart .btnCarts button:hover {
+  font-size: 14px !important;
+  font-weight: 600;
+}
+.addtoCart .btnCarts button.btn-solid-primary {
+  width: 200px;
+  height: 45px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+  background: #009975;
+  border: 1px solid #009975;
+}
