@@ -786,6 +786,7 @@ footer h4.judul-footer {
   padding-top: 0px;
   padding-bottom: 0px;
   background: #ffffff;
+  margin-bottom: 30px;
 }
 #detailPage .breadcrumbs nav ol li a{
   color: #009975;
@@ -1016,4 +1017,8 @@ footer h4.judul-footer {
   color: #ffffff;
   background: #009975;
   border: 1px solid #009975;
+}
+
+.colImgDetail .slideThumb figure {
+  margin-bottom: 0px;
 }

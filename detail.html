@@ -17,6 +17,9 @@
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+  <link rel="stylesheet" type="text/css" href="plugin/slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="plugin/slick/slick-theme.css">
+
   <!-- Slideshow core CSS -->
   <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
   <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
@@ -112,6 +115,46 @@
       <div class="row">
         <div class="col-lg-4">
           <div class="colImgDetail">
+
+
+            <div class="slideThumb">
+              <!-- MAIN SLIDES -->
+              <div class="slider">
+                <figure>
+                  <img src="assets/img/img1.jpg" class="img-fluid" alt="One">
+                </figure>
+                <figure>
+                  <img src="assets/img/img2.jpg" class="img-fluid" alt="One">
+                </figure>
+                <figure>
+                  <img src="assets/img/img3.jpg" class="img-fluid" alt="One">
+                </figure>
+                <figure>
+                  <img src="assets/img/img2.jpg" class="img-fluid" alt="One">
+                </figure>
+                <figure>
+                  <img src="assets/img/img4.jpg" class="img-fluid" alt="One">
+                </figure>
+              </div>
+              <!-- THUMBNAILS -->
+              <div class="slider-nav-thumbnails">
+                <div>
+                  <img src="assets/img/thumb1.jpg" class="img-fluid" alt="One">
+                </div>
+                <div>
+                  <img src="assets/img/thumb2.jpg" class="img-fluid" alt="Two">
+                </div>
+                <div>
+                  <img src="assets/img/thumb3.jpg" class="img-fluid" alt="Three">
+                </div>
+                <div>
+                  <img src="assets/img/thumb2.jpg" class="img-fluid" alt="Four">
+                </div>
+                <div>
+                  <img src="assets/img/thumb4.jpg" class="img-fluid" alt="five">
+                </div>
+              </div>
+            </div>
 
           </div>
         </div>
@@ -503,6 +546,7 @@
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js" type="text/javascript"></script>
     <script src="owlcarousel/owl.carousel.js"></script>
     <script src="assets/js/jquery.slimscroll.min.js" type="text/javascript"></script>
+    <script src="plugin/slick/slick.js" type="text/javascript"></script>
     <script src="http://dapuromiyago.com/theme/js/app.min.js" type="text/javascript"></script>
 
     <script>
@@ -543,29 +587,42 @@
           }
         });
 
-        $("#carousel3").owlCarousel({
-          nav: true,
-          loop: true,
-          margin: 0,
-          dots : false,
-          autoplay:false,
-          autoplayTimeout: 8000,
-          autoplaySpeed: 5000,
-          responsive:{
-            0:{
-                items:2.2
-            },
-            600:{
-                items:3
-            },
-            1000:{
-                items:5
-            }
-          }
-        });
-
       });
     </script>
+
+    <script>
+    
+    $('.slider').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: true,
+      fade: false,
+      asNavFor: '.slider-nav-thumbnails',
+    });
+
+    $('.slider-nav-thumbnails').slick({
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      asNavFor: '.slider',
+      margin: 4,
+      dots: false,
+      focusOnSelect: true
+    });
+
+    // Remove active class from all thumbnail slides
+    $('.slider-nav-thumbnails .slick-slide').removeClass('slick-active');
+
+    // Set active class to first thumbnail slides
+    $('.slider-nav-thumbnails .slick-slide').eq(0).addClass('slick-active');
+
+    // On before slide change match active thumbnail to current slide
+    $('.slider').on('beforeChange', function (event, slick, currentSlide, nextSlide) {
+      var mySlideNumber = nextSlide;
+      $('.slider-nav-thumbnails .slick-slide').removeClass('slick-active');
+      $('.slider-nav-thumbnails .slick-slide').eq(mySlideNumber).addClass('slick-active');
+    });
+    
+  </script>
 
 </body>
 </html>
