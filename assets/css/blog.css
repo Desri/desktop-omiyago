@@ -1,0 +1,52 @@
+
+
+.headingPage {
+  height: 120px;
+  background: #f3f3f3;
+}
+.navbar .navbar-brand img {
+  width: 140px;
+}
+.navbar .navbar-collapse ul li a{
+  font-size: 13px;
+  font-weight: 600;
+  color: #737373 !important;
+}
+
+
+#listBlog {
+  padding-top: 40px;
+}
+#listBlog .listArticle {
+  margin-bottom: 50px;
+}
+#listBlog .listArticle .media img {
+  width: 250px;
+}
+#listBlog .listArticle .media .media-body h5 {
+  color: #565656;
+  font-size: 15px;
+  font-weight: 700;
+}
+#listBlog .listArticle .media .media-body p {
+  font-size: 14px;
+  line-height: 19px;
+  margin-bottom: 0px;
+}
+#listBlog .listArticle .media .media-body .more a {
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+#listBlog .listArticle .media .media-body .slugList ul {
+  overflow: hidden;
+  padding-left: 0px;
+  margin-bottom: 5px;
+}
+#listBlog .listArticle .media .media-body .slugList ul li {
+  float: left;
+  color: #8e8e8e;
+  font-size: 13px;
+  list-style: none;
+  margin-right: 15px;
+}
