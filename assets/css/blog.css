@@ -16,6 +16,7 @@
 
 #listBlog {
   padding-top: 40px;
+  margin-bottom: 50px;
 }
 #listBlog .listArticle {
   margin-bottom: 50px;
@@ -49,4 +50,131 @@
   font-size: 13px;
   list-style: none;
   margin-right: 15px;
+}
+.listArticlepaging .leftPaging {
+  float: left;
+}
+.listArticlepaging .leftPaging span {
+  border: 1px solid #dddddd;
+  font-size: 14px;
+  padding: 3px 8px;
+  color: #b3b3b3;
+  cursor: pointer;
+}
+.listArticlepaging .rightPaging {
+  float: right;
+}
+.listArticlepaging .rightPaging span{
+  border: 1px solid #dddddd;
+  font-size: 14px;
+  padding: 3px 8px;
+  color: #b3b3b3;
+  cursor: pointer;
+}
+.slideSidebar h2 {
+  color: #424242;
+  font-size: 16px;
+}
+.slideSidebar .item .cardProduk img {
+  margin-bottom: 10px;
+}
+.slideSidebar .item .cardProduk .titleProduk h2 {
+  margin-bottom: 0px;
+}
+.slideSidebar .item .cardProduk .titleProduk p {
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+.slideSidebar .owl-carousel .owl-dots {
+  z-index: 9;
+  margin-top: -11px !important;
+  position: relative;
+}
+.slideSidebar .owl-carousel .owl-dots button{
+  outline: 0px;
+}
+.sidebartabs {
+  margin-top: 30px;
+}
+
+.sidebartabs ul {
+  width: 100%;
+}
+.sidebartabs ul li {
+  width: 33.333%;
+  text-align: center;
+  border: 1px solid #dddddd;
+}
+.sidebartabs ul li a{
+  color: #565656;
+  font-size: 15px;
+  background: #dddddd;
+  padding: 2px 12px;
+  width: 100%;
+  display: block;
+}
+.sidebartabs ul li a.active{
+  background: #ffffff;
+}
+.sidebartabs ul li a:hover{
+  text-decoration: none;
+}
+
+.sidebartabs .tab-content {
+  margin-top: 15px;
+}
+.sidebartabs .tab-content .media {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #f7f7f7;
+}
+.sidebartabs .tab-content .media .listComment p {
+  font-size: 14px;
+  line-height: 19px;
+  margin-bottom: 0px;
+}
+.sidebartabs .tab-content .media img {
+  width: 50px;
+  border-radius: 50%;
+}
+.sidebartabs .tab-content .media .media-body h5 {
+  font-size: 14px;
+  margin-bottom: 3px;
+  line-height: 14px;
+}
+.sidebartabs .tab-content .media .media-body p {
+  font-size: 13px;
+  margin-bottom: 0px;
+}
+footer {
+  color: #cccccc;
+  padding: 40px 0px;
+  background: #333333;
+}
+footer .descFooter p {
+  font-size: 13px;
+  line-height: 18px;
+}
+footer .descFooter span {
+  font-size: 14px;
+}
+footer .descFooter .contactDescFooter p {
+  margin-bottom: 0px;
+}
+footer .descFooter .contactDescFooter span {
+  font-weight: 600;
+}
+
+footer .linkFooter h2 {
+  font-size: 16px;
+}
+footer .linkFooter ul {
+  padding-left: 0px;
+}
+footer .linkFooter ul li {
+  list-style: none;
+}
+footer .linkFooter ul li a{
+  color: #c1c1c1;
+  font-size: 13px;
 }
