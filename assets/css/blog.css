@@ -51,6 +51,161 @@
   list-style: none;
   margin-right: 15px;
 }
+#listBlog .blogDetail .media .media-body h5 {
+  font-size: 20px;
+}
+#listBlog .blogDetail .media img {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+#listBlog .blogDetail .media .media-body p {
+  margin-bottom: 15px;
+}
+#listBlog .blogDetail .media .media-body ul li p {
+  margin-bottom: 0px;
+}
+
+#listBlog .blogDetail .commentDetail {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 1px solid #eaeaea;
+}
+#listBlog .blogDetail .commentDetail h2 {
+  font-size: 18px;
+  color: #525252;
+}
+#listBlog .blogDetail .commentDetail h2 span{
+  color: #4cd898;
+}
+#listBlog .blogDetail .commentDetail .media img {
+  width: 50px;
+  border-radius: 50%;
+}
+#listBlog .blogDetail .commentDetail .media .media-body h5 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+#listBlog .detailBlogPaging {
+  height: 31px;
+  margin-top: 35px;
+  overflow: hidden;
+}
+#listBlog .detailBlogPaging .leftPaging span {
+  border: 0px;
+  padding: 0px;
+  color: #4cd898;
+  font-weight: 600;
+}
+#listBlog .detailBlogPaging .rightPaging span {
+  border: 0px;
+  padding: 0px;
+  color: #4cd898;
+  font-weight: 600;
+}
+#listBlog .blogDetail .commentDetail .media .media-body span {
+  font-size: 13px;
+  color: #828282;
+  position: relative;
+  top: -3px;
+}
+#listBlog .blogDetail .creator {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 1px solid #eaeaea;
+}
+#listBlog .blogDetail .creator .media img {
+  width: 60px;
+  margin: 0px;
+  border-radius: 50%;
+}
+#listBlog .blogDetail .creator .media .media-body p {
+  margin-bottom: 0px;
+}
+#listBlog .blogDetail .creator .card .card-header h2 {
+  font-size: 16px;
+  color: #525252;
+  margin-bottom: 0px;
+}
+#listBlog .blogDetail .creator .card .card-header h2 span{
+  color: #4cd898;
+}
+#listBlog .blogDetail .commentDetail .media .media-body p {
+  margin-bottom: 15px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f3f3f3;
+}
+#listBlog .blogDetail .relatedDetail {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 1px solid #eaeaea;
+}
+#listBlog .blogDetail .relatedDetail h2 {
+  font-size: 18px;
+  color: #525252;
+  margin-bottom: 15px;
+}
+#listBlog .blogDetail .relatedDetail .media {
+  margin-bottom: 15px;
+}
+#listBlog .blogDetail .relatedDetail .media img {
+  width: 150px;
+  margin: 0px;
+}
+#listBlog .blogDetail .relatedDetail .media .media-body h5 {
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+#listBlog .blogDetail .relatedDetail .media .media-body p {
+  color: #4e4e4e;
+  line-height: 15px;
+}
+#listBlog .blogDetail .formComment {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 1px solid #eaeaea;
+}
+#listBlog .blogDetail .formComment h2{
+  font-size: 18px;
+  color: #525252;
+  margin-bottom: 20px;
+}
+#listBlog .blogDetail .formComment h2 span{
+  color: #4cd898;
+}
+#listBlog .blogDetail .formComment form label {
+  font-size: 14px;
+  margin-bottom: 0px;
+  font-weight: 600;
+}
+#listBlog .blogDetail .formComment form input {
+  border-radius: 0px;
+}
+#listBlog .blogDetail .formComment form textarea {
+  border-radius: 0px;
+}
+#listBlog .blogDetail .formComment form .form-group {
+  margin-top: 15px;
+}
+#listBlog .blogDetail .formComment form button {
+  font-size: 14px;
+  background: #4cd898;
+  border-radius: 0px;
+  border-color: #4cd898;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .listArticlepaging .leftPaging {
   float: left;
 }
@@ -177,4 +332,110 @@ footer .linkFooter ul li {
 footer .linkFooter ul li a{
   color: #c1c1c1;
   font-size: 13px;
+}
+footer .listRecent {
+  margin-bottom: 20px;
+}
+footer .listRecent p {
+  margin-bottom: 0px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 15px;
+}
+footer .listRecent span {
+  font-size: 13px;
+  font-weight: 100;
+}
+footer .formfooterbtm p {
+  font-size: 14px;
+  line-height: 16px;
+}
+footer .formfooterbtm form .input-group-text{
+  background: #2d2d2d;
+  border-color: #2d2d2d;
+}
+footer .formfooterbtm form .input-group-text i{
+  color: #8e8e8e;
+  font-size: 14px;
+}
+footer .formfooterbtm form .input-group {
+  width: 73%;
+  float: left;
+}
+footer .formfooterbtm form .col-auto {
+  float: right;
+  padding: 0px;
+  width: 27%;
+}
+footer .formfooterbtm form .col-auto button {
+  width: 75px;
+    font-size: 12px;
+    text-align: center;
+    height: 34px;
+    border-radius: 0px;
+    background: #2b5d2b;
+    border-color: #2b5d2b;
+}
+footer .formfooterbtm form input{
+  color: #dcdcdc;
+  border-radius: 0px;
+  font-size: 14px;
+  background: #444444;
+  border-color: #444444;
+}
+footer .formfooterbtm form input:focus {
+  background: #444444;
+}
+footer .counts {
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+footer .counts p{
+  font-size: 23px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+footer .counts span {
+  font-weight: lighter;
+  font-size: 14px;
+  position: relative;
+  top: -6px;
+}
+footer .counts .countleft{
+  float: left;
+}
+footer .counts .countright{
+  float: right;
+}
+.footerBottom {
+  color: #909090;
+  padding: 15px 0px;
+  background: #2d2d2d;
+}
+.footerBottom p{
+  font-size: 13px;
+  margin-bottom: 0px;
+} 
+.linksFooterbtm {
+  text-align: right;
+}
+.linksFooterbtm .linnks {
+  overflow: hidden;
+}
+.linksFooterbtm ul {
+  padding-left: 0px;
+  overflow: hidden;
+  float: right;
+  margin-bottom: 0px;
+}
+.linksFooterbtm ul li {
+  list-style: none;
+  float: left;
+  margin-left: 20px;
+}
+.linksFooterbtm ul li a{
+  color: #909090;
+}
+.linksFooterbtm ul li a i{
+  
 }
